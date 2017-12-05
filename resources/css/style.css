@@ -1,0 +1,99 @@
+/* ----- rules that don't apply to just one section ----- */
+
+div {
+  border: 1px solid red;     /* ----- TEMPORARY HELP BOXES ----- */
+  display: block;
+}
+
+body {
+  display: block;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+/* ----- header section ----- */
+
+.logo {
+  display: flex;
+}
+.logo span {
+  color: MediumAquamarine;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-content: center;
+  z-index: 1;
+  align-items: center;
+  position: fixed;
+  height: 100px;
+  border-bottom: 2px solid black;
+}
+
+header span {
+  display: inline-block;
+}
+
+a {
+  color: black;
+}
+
+/* ----- article sections ----- */
+
+.articles {
+  display: flex;
+  padding-top: 140px;
+}
+
+.tuna h1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  text-align: left;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/* ----- column measurements ----- */
+
+.large {
+  width: 630px;
+  flex-direction: column;
+}
+
+.medium {
+  width: 300px;
+  flex-direction: column;
+}
+
+.small {
+  width: 240px;
+  flex-direction: column;
+}
+
+/* ----- footer section ----- */
+
+footer {
+  width: 100%;
+  align-content: center;
+  display: flex;
+  background-color: MediumAquamarine;
+}
+
+.end {
+  color: white;
+}
